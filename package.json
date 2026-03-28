@@ -1,0 +1,42 @@
+{
+  "name": "dinofyi-embed",
+  "version": "1.0.0",
+  "description": "Embed DinoFYI paleontology widgets — dinosaur cards, period timelines, diet badges, size comparisons. Zero dependencies, Shadow DOM, 4 themes.",
+  "main": "dist/embed.min.js",
+  "module": "dist/embed.esm.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist/",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "dinosaur",
+    "paleontology",
+    "fossil",
+    "cretaceous",
+    "jurassic",
+    "triassic",
+    "embed",
+    "widget",
+    "dinofyi",
+    "dinofyi.com",
+    "shadow-dom",
+    "zero-dependencies",
+    "fyipedia",
+    "naturefyi"
+  ],
+  "homepage": "https://widget.dinofyi.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fyipedia/dinofyi-embed"
+  },
+  "bugs": {
+    "url": "https://github.com/fyipedia/dinofyi-embed/issues"
+  },
+  "license": "MIT",
+  "author": "FYIPedia <dev@fyipedia.com>",
+  "publishConfig": {
+    "access": "public"
+  }
+}
