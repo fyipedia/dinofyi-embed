@@ -45,7 +45,7 @@ That's it. The widget fetches data from the DinoFYI API and renders with full st
 | `data-dinofyi` | entity, compare, glossary, guide, search, [tools] | required | Widget type |
 | `data-slug` | e.g. "dinosaurs" | — | Entity slug from the DinoFYI database |
 | `data-theme` | light, dark, sepia, auto | light | Visual theme (`auto` follows OS preference) |
-| `data-style` | modern, organic | modern | Widget design style |
+| `data-styleVariant` | modern, organic | modern | Widget design style |
 | `data-size` | default, compact, large | default | Widget size |
 | `data-placeholder` | any string | "Search Dinosaurs..." | Search box placeholder |
 
@@ -69,10 +69,10 @@ That's it. The widget fetches data from the DinoFYI API and renders with full st
 
 ```html
 <!-- Modern (default) — clean lines, rounded corners, accent gradients -->
-<div data-dinofyi="entity" data-slug="dinosaurs" data-style="modern"></div>
+<div data-dinofyi="entity" data-slug="dinosaurs" data-styleVariant="modern"></div>
 
 <!-- Organic — natural curves, earth-tone aesthetics, field-guide look -->
-<div data-dinofyi="entity" data-slug="dinosaurs" data-style="organic"></div>
+<div data-dinofyi="entity" data-slug="dinosaurs" data-styleVariant="organic"></div>
 ```
 
 ## Web Components (Custom Elements)

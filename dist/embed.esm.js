@@ -784,7 +784,7 @@ ${getStyleCSS(style)}
 
 // src/shadow.ts
 function createShadow(el, config) {
-  const widgetStyle = el.dataset.style || "modern";
+  const widgetStyle = el.dataset.styleVariant || "modern";
   const shadow = el.attachShadow({ mode: "open" });
   const style = document.createElement("style");
   style.textContent = getThemeCSS(config.accent, widgetStyle);
@@ -2204,7 +2204,7 @@ function initTaxonomyInline(el, config) {
 
 // src/_entry_dinofyi.ts
 function initWidget(el, type, config) {
-  const widgetStyle = el.dataset.style || "modern";
+  const widgetStyle = el.dataset.styleVariant || "modern";
   void widgetStyle;
   switch (type) {
     case "entity":
@@ -2320,7 +2320,7 @@ function makeWidgetElement(widgetType, initFn, domainAttrs) {
       const theme = this.getAttribute("theme");
       if (theme !== null) this.dataset.theme = theme;
       const styleVariant = this.getAttribute("style-variant");
-      if (styleVariant !== null) this.dataset.style = styleVariant;
+      if (styleVariant !== null) this.dataset.styleVariant = styleVariant;
       const size = this.getAttribute("size");
       if (size !== null) this.dataset.size = size;
     }

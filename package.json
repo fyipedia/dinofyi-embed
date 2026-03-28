@@ -1,6 +1,6 @@
 {
   "name": "dinofyi-embed",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Embed DinoFYI paleontology widgets — dinosaur cards, period timelines, diet badges, size comparisons. Zero dependencies, Shadow DOM, 4 themes.",
   "main": "dist/embed.min.js",
   "module": "dist/embed.esm.js",
