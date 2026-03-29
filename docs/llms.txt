@@ -1,21 +1,52 @@
 # DinoFYI Embed Widget
 
-> Embeddable DinoFYI widgets for any website. Zero dependencies, Shadow DOM isolation, 4 themes (light/dark/sepia/auto).
+> 6,142 dinosaurs, paleontology. Embeddable widgets for any website. Zero dependencies, Shadow DOM isolation.
 
 ## Quick Start
 
-Add to any HTML page:
-- Script: <script src="https://cdn.jsdelivr.net/npm/dinofyi-embed@1/dist/embed.min.js"></script>
+```html
+<script src="https://cdn.jsdelivr.net/npm/dinofyi-embed@1/dist/embed.min.js"></script>
+<div data-dinofyi="iucn-badge" data-slug="example"></div>
+```
+
+## Available Widget Types (8)
+
+- entity: `data-dinofyi="entity"`
+- glossary: `data-dinofyi="glossary"`
+- guide: `data-dinofyi="guide"`
+- compare: `data-dinofyi="compare"`
+- search: `data-dinofyi="search"`
+- iucn-badge (interactive): `data-dinofyi="iucn-badge"`
+- period-timeline (interactive): `data-dinofyi="period-timeline"`
+- diet-badge (interactive): `data-dinofyi="diet-badge"`
+
+## Customization
+
+- **Themes**: light, dark, sepia, auto (follows system preference)
+- **Sizes**: compact (280px), default (420px), large (720px)
+- **Styles**: modern, classic
+
+```html
+<div data-dinofyi="iucn-badge" data-slug="example"
+     data-theme="auto" data-size="compact" data-style-variant="modern"></div>
+```
+
+## Integration Methods
+
+1. **Script tag** (recommended): `<script src="https://cdn.jsdelivr.net/npm/dinofyi-embed@1/dist/embed.min.js"></script>`
+2. **iframe**: `https://dinofyi.com/iframe/entity/{slug}/`
+3. **oEmbed**: `https://dinofyi.com/oembed?url={page_url}&format=json`
+4. **Badge**: `https://dinofyi.com/badge/site.svg`
 
 ## Links
 
 - Main site: https://dinofyi.com
 - Widget docs: https://widget.dinofyi.com
-- npm: https://www.npmjs.com/package/dinofyi-embed
+- API documentation: https://dinofyi.com/developers/
+- npm package: https://www.npmjs.com/package/dinofyi-embed
 - GitHub: https://github.com/fyipedia/dinofyi-embed
-- API: https://dinofyi.com/developers/
 
-## Nature FYI Widget Family
+## Nature FYI Widget Network
 
 - [SpeciesFYI Widget](https://widget.speciesfyi.com)
 - [BirdFYI Widget](https://widget.birdfyi.com)
