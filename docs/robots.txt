@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+# DinoFYI Embed Widget
+# Main site: https://dinofyi.com
+# Widget docs: https://widget.dinofyi.com
+# npm: https://www.npmjs.com/package/dinofyi-embed
